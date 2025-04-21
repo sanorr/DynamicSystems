@@ -4,6 +4,16 @@
   "dependencies": [
     "fmt",
     "boost-config",
-    "sqlite3"
+    "sqlite3",
+    {
+      "name": "sdl3",
+      "features": [ "vulkan" ]
+    },
+    {
+      "name": "imgui",
+      "features": [ "docking-experimental", "sdl3-binding", "vulkan-binding" ]
+    },
+    "implot",
+    "implot3d"
   ]
 }

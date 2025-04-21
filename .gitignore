@@ -35,3 +35,17 @@
 /builds
 .DS_Store
 /build
+
+# MacOS
+*.DS_Store
+
+# Visual Studio Code
+.vscode/
+
+/[Bb]uild/
+/[Oo]ut/
+/[Oo]utput/
+/[Ii]nstall/
+
+# CLion
+.idea/
